@@ -35,12 +35,12 @@ AirZ = Wv/2;
 
 % Temporary Files. These files can be deleted after the optimization
 % is complete. We have to specify the complete path for all of them.
-tmpPrjFile = 'd:\temp\tmpDipole.hfss';
-tmpDataFile = 'd:\temp\tmpData.m';
-tmpScriptFile = 'd:\temp\dipole_example.vbs';
+tmpPrjFile = 'D:\temp\tmpDipole.hfss';
+tmpDataFile = 'D:\temp\tmpData.m';
+tmpScriptFile = 'D:\temp\dipole_example.vbs';
 
 % HFSS Executable Path.
-hfssExePath = '"C:\Program Files\AnsysEM\HFSS15.0\Win64\hfss.exe"';
+hfssExePath = '"C:\Program Files\AnsysEM\AnsysEM19.2\Win64\hfss.exe"';
 
 % Plot Colors.
 pltCols = ['b', 'r', 'k', 'g', 'm', 'c', 'y'];
