@@ -40,7 +40,7 @@ tmpDataFile = 'D:\temp\tmpData.m';
 tmpScriptFile = 'D:\temp\dipole_example.vbs';
 
 % HFSS Executable Path.
-hfssExePath = '"C:\Program Files\AnsysEM\AnsysEM19.2\Win64\hfss.exe"';
+hfssExePath = '"C:\Program Files\AnsysEM\AnsysEM19.2\Win64\ansysedt.exe"';
 
 % Plot Colors.
 pltCols = ['b', 'r', 'k', 'g', 'm', 'c', 'y'];
@@ -57,7 +57,8 @@ for iIters = 1:maxIters,
 	disp('Creating the Script File ...');
 	
 	% Create a new temporary HFSS script file.
-	fid = fopen(tmpScriptFile, 'wt');
+	
+    fid = fopen(tmpScriptFile, 'wt');
 
 	% Create a new HFSS Project and insert a new design.
 	hfssNewProject(fid);

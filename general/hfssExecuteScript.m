@@ -109,6 +109,6 @@ cmdHFSS = [hfssExePath, ' ', iconStr, ' ', runStr, ' ' ,  ...
 % Execute the Command.
 disp(sprintf('    Running HFSS using %s ...\n', cmdHFSS));
 [Status, Result] = system(cmdHFSS);
-if (Status ~= 0)
+if (Status ~= 0) 
 	warning('HFSS Execution returned an error status !');
 end;
